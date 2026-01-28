@@ -17,7 +17,7 @@ jobs:
         run:
           mkdir dist
           echo "This is the build artifacts" > dist/build.txt
-        name: Run tests
+      - name: Run tests
         run: npm test
 
       - name: Upload build artifacts
